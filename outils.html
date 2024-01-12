@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Outil de Prédiction de Structure Secondaire d'ARN</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Votre code CSS ici */
+    </style>
+</head>
+<body>
+    <section class="head">
+        <div class="head">       
+            <h1>PredRna</h1>
+            <hr>
+        </div>
+    </section>
+
+    <section class="accueil">
+        <header class="banniere">
+            <nav class="menu">
+                <ul>
+                    <li class="bouton">
+                        <a href="predrna.html">
+                            Accueil
+                        </a>
+                    </li>
+                    <li class="bouton">
+                        <a href="outils.html">
+                            Outils
+                        </a>
+                    </li>
+                    <li class="bouton">
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <section class="id">
+        
+        <h1>Prédiction de toutes les structures d'une séquence d'ARN</h1>
+
+        <form action="http://127.0.0.1:5000/traitement" method="post" enctype="multipart/form-data">
+            <input type="file" name="fichier">
+            <input type="submit" value="Traiter le fichier">
+        </form>
+        
+    </section>
+
+    <section class="id">
+        
+        <h1>Parser une structure secondaire d’ARN au format parenthese, vérifier sa validité et calculer le nombre
+            total de liaisons hydrogènes de la structure.</h1>
+
+        <form action="http://127.0.0.1:5000/validation" method="post" enctype="multipart/form-data">
+            <input type="file" name="fichier">
+            <input type="submit" value="Traiter le fichier">
+        </form>
+        
+    </section>
+
+
+</body>
+</html>

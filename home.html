@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-image: url('ARN-epigenetique-molecules.jpeg');
+        }
+
+
+        #preRnaTitle{
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            font-weight: bold;
+            color: #FFFFFF;
+            padding : 30 px;
+            cursor: pointer;
+            transition: color 2s ease-in-out;
+        }
+
+        #startButton {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            font-weight: bold;
+            color: #FFFFFF;
+            padding : 30 px;
+            cursor: pointer;
+            transition: color 2s ease-in-out;
+        }
+
+        #startButton:hover {
+            color: red;
+        }
+        #preRnaTitle:hover {
+            color: black
+        }
+    </style>
+</head>
+<body>
+
+    <div id="preRnaTitle" >Un site par Abdel et Khoudia<hr></div>
+    <div id="startButton" onclick="navigateToPredRna()">PredRNA</div>
+
+    <script>
+
+
+        function navigateToPredRna() {
+            window.location.href = 'predrna.html';
+        }
+    </script>
+
+
+</body>
+</html>

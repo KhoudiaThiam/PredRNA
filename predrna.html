@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PredRna : Outil de Prédiction de Structure Secondaire d'ARN</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Votre code CSS ici */
+    </style>
+</head>
+<body>
+
+    <!-- Contenu sous forme de boite-->
+
+    <section class="head">
+        <div class="head">       
+            <h1>PredRna</h1>
+            <hr>
+            
+        </div>
+    </section>
+
+    <section class="accueil">
+        <header class="banniere">
+            <nav class="menu">
+                <ul>
+                    <li class="bouton">
+                        <a href="predrna.html">
+                            Accueil
+                        </a>
+                    </li>
+                    <li class="bouton">
+                        <a href="outils.html">
+                            Outils
+                        </a>
+                    </li>
+                    <li class="bouton">
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <section id="structure arn" class="id">
+        <h1 >
+            Structure Secondaire de l'ARN <hr>
+        </h1>
+            
+        <p>L'acide ribonucléique (ARN) est une molécule biologique essentielle qui joue un rôle crucial dans la synthèse des protéines. La structure de l'ARN peut être analysée à différents niveaux, notamment la structure primaire, la structure secondaire et la structure tertiaire.La structure secondaire de l'ARN fait référence aux appariements de bases complémentaires le long de la molécule. Contrairement à l'ADN, l'ARN est généralement monocaténaire, mais il peut former des structures en épingle à cheveux, des boucles, des tiges et des pseudo-nœuds.</p>
+
+        <div class="img">
+            <img src="pictures/struct2-removebg-preview.png" alt="Structure secondaire de l'ARN" class="description">
+        </div>
+
+        <p>Les appariements de bases, tels que l'appariement complémentaire entre les bases A (adénine) et U (uracile) ou entre les bases G (guanine) et C (cytosine), contribuent à la formation de la structure secondaire. Ces appariements sont stabilisés par des liaisons hydrogène.</p>
+            
+        <p>La structure secondaire de l'ARN est importante car elle influence la fonction de la molécule. Par exemple, les boucles et les épingle à cheveux peuvent jouer un rôle dans la régulation génique et la liaison aux protéines.</p>
+            
+        <p>En résumé, la structure secondaire de l'ARN offre un aperçu détaillé de la manière dont la molécule se replie sur elle-même, ce qui est essentiel pour comprendre son fonctionnement dans les processus biologiques.</p>
+            
+        <!-- ... (le reste de votre contenu) ... -->
+
+    </section>
+    <section id = " Quelques" class="id">
+        <h1 class="Quelques précisions">
+            QUELQUES PRECISIONS <hr>
+
+        </h1>
+        <div class="img">
+            <img src="pictures/Exemple structure ARN.png" alt="Structure secondaire de l'ARN" class="description">
+        </div>
+        <p>
+            Il existe deux formats principaux pour décrire les structures secondaires : le format CT (connect) et le format parenthèse.
+
+            Le format CT est un tableau constitué de trois colonnes et de n lignes, où n représente la longueur de la séquence d'ARN. La première colonne indique la position du nucléotide dans la séquence (de 1 à n), la deuxième colonne indique la valeur du nucléotide à cette position (A, C, G ou U), et la troisième colonne indique la position à laquelle le nucléotide est apparié. En cas de nucléotide non apparié (libre), on indique 0 par convention. Les appariements sont donc représentés par des paires de positions. Un exemple est illustré en Figure 2.
+        <div class="img">
+            <img src="pictures/fig2.png" alt="Structure secondaire de l'ARN" class="description">
+        </div>
+        Le format parenthèse ressemble au format <a href="https://fr.wikipedia.org/wiki/FASTA_(format_de_fichier)">Fasta</a> mais avec une ligne supplémentaire pour les appariements. La première ligne est donc une ligne d'entête commençant par un chevron >. La deuxième ligne contient la séquence nucléotidique. La troisième ligne indique les appariements deux à deux sous forme de parenthèses : la parenthèse ouvrante représente le premier nucléotide de l'appariement, et la parenthèse fermante correspondante représente le second nucléotide de l'appariement. Les positions non appariées sont indiquées avec des points. 
+        Un exemple est donné en Figure 3.
+        <div class="img">
+            <img src="pictures/fig3.png" alt="Structure secondaire de l'ARN" class="description">
+        </div>
+        </p>
+    </section>    
+    <section id="predrna" class="id">
+        <h1 class="Titre">
+            What is PredRna ? 
+        </h1>
+        <p>
+            PredRna est un outil de prédiction de structure secondaire d'un ARN 
+        </p>
+    </section>
+
+    <footer>
+        © 2023 PredRna. Tous droits réservés.
+    </footer>
+</body>
+</html>

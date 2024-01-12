@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background-image: url("ARN-epigenetique-molecules.jpeg");
+    font-family: Times, "Times New Roman", Georgia, serif;
+    /*background-image*/ 
+}
+
+div.head {
+    text-align: center;
+    padding: 20px;
+}
+
+div.head h2 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, Georgia, serif;
+    font-weight: 200;
+}
+
+div.head h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-weight: 300;
+}
+
+h1.Titre {
+    text-decoration: underline;
+}
+
+header.banniere {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    height: 60px;
+    padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav.menu ul li {
+    margin-right: 20px;
+}
+
+nav.menu ul li.bouton a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav.menu ul li.bouton a:hover {
+    color: beige;
+    background-color: black;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background-color: #333;
+    margin: 20px 0;
+}
+
+img.description {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+}
+

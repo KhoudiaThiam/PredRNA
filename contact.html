@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - PredRna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="head">
+        <div class="head">       
+            <h1>PredRna</h1>
+            <hr>
+        </div>
+    </section>
+
+    <section class="accueil">
+        <header class="banniere">
+            <nav class="menu">
+                <ul>
+                    <li class="bouton">
+                        <a href="predrna.html">
+                            Accueil
+                        </a>
+                    </li>
+                    <li class="bouton">
+                        <a href="outils.html">
+                            Outils
+                        </a>
+                    </li>
+                    <li class="bouton">
+                        <a href="#">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <section class="id">
+        <h1 class="Titre">
+            Contactez-nous
+        </h1>
+            
+        <p>N'hésitez pas à nous contacter si vous avez des questions, des commentaires ou si vous avez besoin d'assistance.</p>
+
+        <form action="traitement_contact.php" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2023 PredRna. Tous droits réservés.
+    </footer>
+</body>
+</html>

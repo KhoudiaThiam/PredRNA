@@ -1,4 +1,5 @@
-# PredRNA
+# PredRNA ( EN CONSTRUCTION)
+
 
 predRNA est un programme conçu pour parser une structure secondaire d'ARN au format Connect. predRNA offre les fonctionnalités suivantes :
 Parsing de Structure Secondaire : Le programme prend en charge la lecture de structures secondaires d'ARN au format Connect, permettant une représentation graphique de la structure.
